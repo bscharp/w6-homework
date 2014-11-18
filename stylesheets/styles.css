@@ -1,0 +1,101 @@
+/*  View example button styles here: http://hellohappy.org/css3-buttons/ 
+    Then view their code here:  https://github.com/ubuwaits/css3-buttons
+    Pick two that you like, and copy the css code from repo to style the two buttons on index.html. */
+
+/* clean gray
+*******************************************************************************/
+button.clean-gray {
+background-color: #eeeeee;
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eeeeee), color-stop(100%, #cccccc));
+background-image: -webkit-linear-gradient(top, #eeeeee, #cccccc);
+background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+background-image: -ms-linear-gradient(top, #eeeeee, #cccccc);
+background-image: -o-linear-gradient(top, #eeeeee, #cccccc);
+background-image: linear-gradient(top, #eeeeee, #cccccc);
+border: 1px solid #ccc;
+border-bottom: 1px solid #bbb;
+border-radius: 3px;
+color: #333;
+font: bold 11px/1 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+padding: 8px 0;
+text-align: center;
+text-shadow: 0 1px 0 #eee;
+width: 150px; }
+button.clean-gray:hover {
+background-color: #dddddd;
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #dddddd), color-stop(100%, #bbbbbb));
+background-image: -webkit-linear-gradient(top, #dddddd, #bbbbbb);
+background-image: -moz-linear-gradient(top, #dddddd, #bbbbbb);
+background-image: -ms-linear-gradient(top, #dddddd, #bbbbbb);
+background-image: -o-linear-gradient(top, #dddddd, #bbbbbb);
+background-image: linear-gradient(top, #dddddd, #bbbbbb);
+border: 1px solid #bbb;
+border-bottom: 1px solid #999;
+cursor: pointer;
+text-shadow: 0 1px 0 #ddd; }
+button.clean-gray:active {
+border: 1px solid #aaa;
+border-bottom: 1px solid #888;
+-webkit-box-shadow: inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee;
+box-shadow: inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee; }
+
+/* skip (inspired by okcupid iphone interface)
+*******************************************************************************/
+button.skip {
+background-color: #8c9cbf;
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #8c9cbf), color-stop(50%, #546a9e), color-stop(50%, #36518f), color-stop(100%, #3d5691));
+background-image: -webkit-linear-gradient(top, #8c9cbf 0%, #546a9e 50%, #36518f 50%, #3d5691 100%);
+background-image: -moz-linear-gradient(top, #8c9cbf 0%, #546a9e 50%, #36518f 50%, #3d5691 100%);
+background-image: -ms-linear-gradient(top, #8c9cbf 0%, #546a9e 50%, #36518f 50%, #3d5691 100%);
+background-image: -o-linear-gradient(top, #8c9cbf 0%, #546a9e 50%, #36518f 50%, #3d5691 100%);
+background-image: linear-gradient(top, #8c9cbf 0%, #546a9e 50%, #36518f 50%, #3d5691 100%);
+border: 1px solid #172d6e;
+border-bottom: 1px solid #0e1d45;
+border-radius: 5px;
+-webkit-box-shadow: inset 0 1px 0 0 #b1b9cb;
+box-shadow: inset 0 1px 0 0 #b1b9cb;
+color: #fff;
+font: bold 16px/1 "helvetica neue", helvetica, arial, sans-serif;
+padding: 7px 0 8px 0;
+text-decoration: none;
+text-align: center;
+text-shadow: 0 -1px 1px #000f4d;
+width: 150px; }
+button.skip:hover {
+background-color: #7f8dad;
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7f8dad), color-stop(50%, #4a5e8c), color-stop(50%, #2f477d), color-stop(100%, #364c80));
+background-image: -webkit-linear-gradient(top, #7f8dad 0%, #4a5e8c 50%, #2f477d 50%, #364c80 100%);
+background-image: -moz-linear-gradient(top, #7f8dad 0%, #4a5e8c 50%, #2f477d 50%, #364c80 100%);
+background-image: -ms-linear-gradient(top, #7f8dad 0%, #4a5e8c 50%, #2f477d 50%, #364c80 100%);
+background-image: -o-linear-gradient(top, #7f8dad 0%, #4a5e8c 50%, #2f477d 50%, #364c80 100%);
+background-image: linear-gradient(top, #7f8dad 0%, #4a5e8c 50%, #2f477d 50%, #364c80 100%);
+cursor: pointer; }
+button.skip:active {
+-webkit-box-shadow: inset 0 0 20px 0 #1d2845, 0 1px 0 white;
+box-shadow: inset 0 0 20px 0 #1d2845, 0 1px 0 white; }
+
+
+header { width: 50em;
+         height: 4em;
+         margin: 5px 5px 5px 5px;
+         padding; 2px 2px 2px 2px;}
+
+nav { background-color: yellowgreen;
+     margin: 15px 5px 5px 5px; }
+
+nav ul { list-style-type: none; 
+        margin: 5px 5px 5px 5px; 
+        text-align: center;}
+
+nav li { display: inline;
+         margin: 5px 15px 5px 15px;}
+
+a { text-decoration: none ; }
+
+footer { background-color: lightgrey; 
+         width: 50em;
+         height: 2em;
+         text-align: right; }
+
+ footer i { margin-right: 2em;
+             margin-top: 5px }
